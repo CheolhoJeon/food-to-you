@@ -13,3 +13,4 @@
 * Proper DB Design
 * CQRS
 * Microservices
+* AWS
