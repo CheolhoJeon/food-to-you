@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/macos,windows,jetbrains+all,kotlin,java-web,gradle
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows,jetbrains+all,kotlin,java-web,gradle
+# Created by https://www.toptal.com/developers/gitignore/api/jetbrains+all,java-web,kotlin,gradle,macos,windows
+# Edit at https://www.toptal.com/developers/gitignore?templates=jetbrains+all,java-web,kotlin,gradle,macos,windows
 
 ### Java-Web ###
 ## ignoring target file
@@ -194,4 +194,4 @@ gradle-app.setting
 ### Gradle Patch ###
 **/build/
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,windows,jetbrains+all,kotlin,java-web,gradle
+# End of https://www.toptal.com/developers/gitignore/api/jetbrains+all,java-web,kotlin,gradle,macos,windows
