@@ -1,0 +1,10 @@
+POST http://localhost:8080/greeting
+Content-Type: application/json
+
+{
+  "name": "cheolho"
+}
+
+###
+GET http://localhost:8080/greeting
+Accept: application/json
