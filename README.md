@@ -4,4 +4,4 @@
 
 # 이력
 
-* 배달서비스코드 작성 -> [issue#3](https://github.com/CheolhoJeon/food-to-you/issues/3)
+* [음식배달서비스 코드 작성](https://github.com/CheolhoJeon/food-to-you/issues/3)
