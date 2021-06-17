@@ -20,10 +20,13 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
-    runtimeOnly("com.h2database:h2:1.4.200")
+
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+
     implementation("org.projectlombok:lombok:1.18.20")
+
+    implementation("org.postgresql:postgresql:42.2.22.jre7")
 }
 
 tasks.withType<KotlinCompile> {

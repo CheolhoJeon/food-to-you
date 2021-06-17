@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+    database:
+        image: postgres
+        container_name: fty-pgsql
+        #    restart: always
+        #    volumes:
+        #      - ./docker/data:/var/lib/postgresql/data
+        #      - ./create-database.sql:/docker-entrypoint-initdb.d/create-databse.sql
+        #      - ./schema.sql:/docker-entrypoint-initdb.d/schema.sql
+        environment:
+            - POSTGRES_DB=fty
+            - POSTGRES_USER=cheolho
+            - POSTGRES_PASSWORD=cheolho
+            - POSTGRES_INITDB_ARGS=--encoding=UTF-8
+        ports:
+            - 5432:5432
