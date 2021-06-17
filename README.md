@@ -5,3 +5,4 @@
 # 이력
 
 * [음식배달서비스 코드 작성](https://github.com/CheolhoJeon/food-to-you/issues/3)
+* [PostgreSQL 도입을 위한 `docker-compose.yml` 작성](https://github.com/CheolhoJeon/food-to-you/issues/23)
