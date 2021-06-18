@@ -9,13 +9,14 @@ import java.util.Arrays;
 import java.util.List;
 
 import static java.util.stream.Collectors.toList;
+import static javax.persistence.GenerationType.IDENTITY;
 
 @Entity
 @Table(name = "OPTION_GROUP_SPECS")
 @Getter
 public class OptionGroupSpecification {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = IDENTITY)
     @Column(name = "OPTION_GROUP_SPEC_ID")
     private Long id;
 
@@ -53,7 +54,7 @@ public class OptionGroupSpecification {
         this.optionSpecs.addAll(options);
     }
 
-    OptionGroupSpecification() {
+    public OptionGroupSpecification() {
     }
 
     public String getName() {
