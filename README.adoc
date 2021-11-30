@@ -1,0 +1,53 @@
+:revision: 2021.47.0
+:icons: font
+:main-title: Food To You 🍖
+:description: 다양한 시도를 위한 개인 토이 프로젝트입니다 👍👍
+:git_service: https://github.com/CheolhoJeon/
+:project_name: food-to-you
+:project_license: Copyright
+:experimental:
+:hardbreaks:
+
+
+= {main-title}
+
+image:https://img.shields.io/badge/version-{revision}-blue.svg[link="./CHANGELOG",title="version"]  image:https://img.shields.io/badge/license-{project_license}-lightgrey.svg[link="./LICENSE",title="license"]
+
+
+== What is the Project
+
+{description}
+
+
+== Status
+
+* link:./CHANGELOG[History]
+* link:{git_service}{project_name}/wiki[Wiki] / link:{git_service}{project_name}/issues[Issues List]
+
+
+== Building
+
+. Clone a copy of the repository:
++
+[subs="attributes"]
+----
+$ git clone {git_service}{project_name}.git
+----
++
+
+. Change to the project directory:
++
+[subs="attributes"]
+----
+$ cd {project_name}
+----
++
+
+
+== Document
+
+* 요구사항서
+
+== Contributor
+
+* Jeon Cheolho <woung2770@gmail.com>
